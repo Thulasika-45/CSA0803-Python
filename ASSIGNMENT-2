@@ -35,7 +35,6 @@ Guess the number: 42
 Congratulations! You guessed the correct number.
 
 
-
 2.
 def count_tabs_spaces_newlines(filename):
     tabs = 0
@@ -60,17 +59,21 @@ def count_tabs_spaces_newlines(filename):
 if __name__ == "__main__":
     filename = input("Enter the filename: ")
     count_tabs_spaces_newlines(filename)
+
 #OUTPUT
+
 i.
 Enter the filename: sample.txt
 Tabs: 6
 Spaces: 7
 Newlines: 7
+
 ii.
 Enter the filename: empty.txt
 Tabs: 0
 Spaces: 0
 Newlines: 0
+
 iii.
 Enter the filename: nonexistent.txt
 The file 'nonexistent.txt' was not found.
